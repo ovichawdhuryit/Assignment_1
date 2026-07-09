@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}   
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 23.5px 115.5px
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.sub-bars ul{
+    display:flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    gap:24px;
+    
+}
+.buttons button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1D4ED8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.banner{
+    display: flex;
+    align-items: center;
+   
+}
