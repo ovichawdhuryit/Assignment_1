@@ -72,4 +72,18 @@ nav{
     justify-content: center;
     color:black;
 }
-
+.first-row{
+    display:flex;
+    gap: 50px;
+    
+}
+.speaker1,.speaker2{
+    border-radius: 10px;
+}
+.second-row{
+    display:flex;
+    gap: 50px;
+}
+.speaker3,.speaker4{
+    border-radius: 10px;
+}
