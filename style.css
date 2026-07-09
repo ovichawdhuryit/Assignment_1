@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }   
+
+section{
+    margin: 80px 463px;
+}
 nav{
     display: flex;
     justify-content: space-between;
