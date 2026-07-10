@@ -87,11 +87,17 @@ nav {
     display: flex;
     gap: 50px;
     justify-content: center;
+
 }
 
 .speaker1,
 .speaker2 {
-    border-radius: 10px;
+    border-radius: 5px;
+    border: 0.2px solid #575757;
+}
+
+.speaker1, .speaker2, .speaker3, .speaker4 p{
+   padding: 2px;
 }
 
 .second-row {
@@ -102,8 +108,15 @@ nav {
 
 .speaker3,
 .speaker4 {
-    border-radius: 10px;
+    border-radius: 5px;
+    border: 0.2px solid #575757;
 }
+.speaker1 img, .speaker2 img, .speaker3 img, .speaker4 img {
+    
+    border-radius: 5px;
+
+}
+
 
 footer {
     background-color: #0D1B2A;
