@@ -75,7 +75,7 @@ nav{
 .first-row{
     display:flex;
     gap: 50px;
-    
+    justify-content: center;
 }
 .speaker1,.speaker2{
     border-radius: 10px;
@@ -83,7 +83,26 @@ nav{
 .second-row{
     display:flex;
     gap: 50px;
+    justify-content: center;
 }
 .speaker3,.speaker4{
     border-radius: 10px;
+}
+footer{
+    background-color: #0D1B2A;
+    color: white;
+    display:flex;
+    padding: 20px 0;
+}
+footer p{
+    align-items: left;
+    text-align: left;
+}
+footer ul{
+    display:flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    
+    gap:24px;
 }
