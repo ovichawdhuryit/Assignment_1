@@ -1,32 +1,35 @@
-*{
+* {
     margin: 0;
     padding: 0;
-}   
-section{
+}
+
+section {
     padding: 20px 0;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 23.5px 115.5px
 }
 
-.logo{
+.logo {
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.sub-bars ul{
-    display:flex;
+
+.sub-bars ul {
+    display: flex;
     list-style: none;
     justify-content: space-between;
     align-items: center;
-    gap:24px;
-    
+    gap: 24px;
+
 }
-.buttons button{
+
+.buttons button {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,30 +39,36 @@ nav{
     padding: 10px 20px;
     border-radius: 5px;
 }
-.banner-section{
+
+.banner-section {
     position: relative;
 }
-.banner img{
+
+.banner img {
     display: block;
     width: 100%;
 }
-.banner-text h1{
+
+.banner-text h1 {
     font-size: 48px;
     font-weight: bold;
     margin-bottom: 20px;
 }
-.banner-text h4{
+
+.banner-text h4 {
     font-size: 24px;
     margin-bottom: 30px;
 }
-.banner-text button{
+
+.banner-text button {
     background-color: #1D4ED8;
     color: white;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
 }
-.banner-text{
+
+.banner-text {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -67,42 +76,62 @@ nav{
     color: white;
     transform: translate(-50%, -50%);
 }
-.meet h1{
+
+.meet h1 {
     text-align: center;
     justify-content: center;
-    color:black;
+    color: black;
 }
-.first-row{
-    display:flex;
+
+.first-row {
+    display: flex;
     gap: 50px;
     justify-content: center;
 }
-.speaker1,.speaker2{
+
+.speaker1,
+.speaker2 {
     border-radius: 10px;
 }
-.second-row{
-    display:flex;
+
+.second-row {
+    display: flex;
     gap: 50px;
     justify-content: center;
 }
-.speaker3,.speaker4{
+
+.speaker3,
+.speaker4 {
     border-radius: 10px;
 }
-footer{
+
+footer {
     background-color: #0D1B2A;
     color: white;
-    display:flex;
+    display: flex;
     padding: 20px 0;
+    align-items: center;
+    padding: 0 115.5px;
+    justify-content: space-between;
 }
-footer p{
+
+footer p {
     align-items: left;
     text-align: left;
 }
-footer ul{
-    display:flex;
+
+.social-links {
+    display: flex;
+    height: 256px;
+    width: 256px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer ul {
+    display: flex;
     list-style: none;
     justify-content: space-between;
     align-items: center;
-    
-    gap:24px;
+    gap: 24px;
 }
