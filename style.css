@@ -104,6 +104,7 @@ nav {
     display: flex;
     gap: 50px;
     justify-content: center;
+    /* justify-content: space-around; */
 }
 
 .speaker3,
@@ -112,9 +113,7 @@ nav {
     border: 0.2px solid #575757;
 }
 .speaker1 img, .speaker2 img, .speaker3 img, .speaker4 img {
-    
     border-radius: 5px;
-
 }
 
 
@@ -147,4 +146,17 @@ footer ul {
     justify-content: space-between;
     align-items: center;
     gap: 24px;
+}
+.secure{
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+.secure h1{
+    font-size: 48px;
+    color:#0D1B2A;
+    font-weight: bold;
+}
+.secure p{
+    font-size: 10px;
+    color:#575757;
 }
