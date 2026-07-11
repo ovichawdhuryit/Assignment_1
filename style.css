@@ -186,6 +186,7 @@ footer ul {
     width: 100%;
     padding: 11px 0;
     align-items: center;
+    margin-top: 20px;
 
 }
 .pro{
@@ -198,14 +199,19 @@ footer ul {
     color: white;
 }
 .pro ul li{
+    margin-top: 3px;
     color: white;
+    text-align: justify;
     /* width: 14px; */
 }
 .pro button{
     background-color: #1D4ED8;
     color: white;
     border: none;
-    padding: 10px 20px;
+    width: 100%;
+    padding: 11px 0;
+    align-items: center;
+    margin-top: 20px;
     border-radius: 5px;
 }
 .team{
@@ -219,9 +225,10 @@ footer ul {
     background-color: #FFFFFF;
     border-radius: 5px;
     border: 1px solid #000000;
-    padding: 10px 20px;
+     width: 100%;
+    padding: 11px 0;
     align-items: center;
-
+    margin-top: 20px;
 }
 
 /* AI Created Section */
