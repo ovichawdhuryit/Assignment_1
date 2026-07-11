@@ -121,9 +121,9 @@ footer {
     background-color: #0D1B2A;
     color: white;
     display: flex;
-    padding: 20px 0;
+    padding: 2px 20px;
     align-items: center;
-    padding: 0 115.5px;
+    
     justify-content: space-between;
 }
 
