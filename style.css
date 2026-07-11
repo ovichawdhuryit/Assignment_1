@@ -176,13 +176,15 @@ footer ul {
     border: 1px solid #E5E7EB;
     border-radius: 8px;
     padding: 20px;
+    font-family: "Inter", sans-serif;
 }
 .standard button{
     color:#2563EB;
     background-color: #FFFFFF;
     border-radius: 5px;
-    border: 1px solid #2563EB;
-    padding: 10px 20px;
+    /* border: 1px solid #2563EB; */
+    width: 100%;
+    padding: 11px 0;
     align-items: center;
 
 }
